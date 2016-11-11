@@ -1,0 +1,23 @@
+{
+    "name": "dala00/AngularBake",
+    "description": "AngularBake plugin for CakePHP3",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.5.9",
+        "cakephp/cakephp": ">=3.3.2 <4.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AngularBake\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AngularBake\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
