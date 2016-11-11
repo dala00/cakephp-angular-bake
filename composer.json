@@ -1,5 +1,5 @@
 {
-    "name": "dala00/AngularBake",
+    "name": "dala00/cakephp-angular-bake",
     "description": "AngularBake plugin for CakePHP3",
     "type": "cakephp-plugin",
     "require": {
